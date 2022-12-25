@@ -161,4 +161,83 @@
     
   
   
+    
+    
+    <entry>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[<p>这是一个普通人的博客</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>familyphotos</title>
+      <link href="/familyphotos/index.html"/>
+      <url>/familyphotos/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="fdb4017d8c814f0dbdd52c45baf9b4691a4347ee2fbd266d180cc07cf534a135">e5193b1482c6e1454ff7741b7cca9406aeef62ef9f61e1135f67a16a967a18bfe33d878c6267b3bc7498888f6eaac840f4964e08efb9a5bfefa3416b5a328f88060dc2d9d7a8c873a5098f1649207e59796085a7f896cd1dbc410e6ec34b4f39b2f4b9161b8aa1fd11a728116e1161dcf4872409bd624c3f94dcde2fac4d18a711d642cde45f12a8a0f2fd9817675a7001c86b4f98c8918e2ef97de3ff6e2c4612e0a02dddb394679e979783cfb8f7f1954102c1a0240cacf587fb252724b4139563fafe8a2e97b98ee53ee312bde0508ce7fb912169427943940d04ae26e16329f5c8eb1a58df0f78a7c4d5ea33d702f12632b9a3338a0f236db3ba3841972024c4fdd4a7cefddb1fc77233cbd0cc310d24d483adb1ba7c4e0021c3b6e5a0d1db25a8064dd2bd944f20cb238eabd4e7948405f9753cff4b2d94b18a1ddd964120a3e221f4bf4d392bac4fdca99f6096a455896778a080c6bb25d7d3bc5d5b42814dbbcfcd70a87d44f0903d9f143469dec0e2b9ae7be13d1a56e55c5fbff1a2412494276fb423dfc841dd7d1584047c793d6b628243d544617edc0bd7f0eb41ff3e248ffe98a7f38cc77da73b8d9fe4bcc50fa66d24f85fd300730910cd5d267a7d6f7359410a598e905d4240fc4558e0e2da4290962aed0cbacb30c8ea9e7d11f0a81b28363b2ca614b47298c1f759d3138ff8e128e9a9e1982e70e878906b147a1e5332cee143f4441022681ea1adc371937ee7879bfe293ce925b8df0334dddc293958185d8f79dfddc055bd57a706573bec85ece5854b9015f57408cc0617e06c16f349dab78448baa842da17118f9757cb9ed0f3c6be28f08aac8d1cafac4374c43153a60bb2259d6d561b56d9f2208e42c82e771e247e16c30ef05131e760d33c6fec1394ac2f60ce036d15b69a4239662dea54ced1ef00b6502ff979d476ca760f6d7575c29bac30fa4826c831f286b3058b7217b752b79f6a33191f6d1c6e3896b15a69ead7fb23e6b011b08713f13a36aa15d46b256f47f2ce3074623a770888b9c847fdd859218cb2584727c9d496e70bc2e8ef66ef44bb779eab522b53fb28f6216b9b8aebf8ebbea5d1</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[<script>console.error("Error: [hexo-tag-aplayer] Specified asset file not found (picture.jpg)");</script>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友情链接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>相册</title>
+      <link href="/photo/index.html"/>
+      <url>/photo/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='/img/20150124214400596900_0.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">家庭相册</div>  <p>家庭相册</p>  <a href='/familyphotos'></a>  </figcaption>  </figure>  </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+  
 </search>
