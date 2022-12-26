@@ -1,4 +1,4 @@
-.layui-layer-imgbar, .layui-layer-imgtit a, .layui-layer-tab .layui-layer-title span, .layui-layer-title {
+﻿.layui-layer-imgbar, .layui-layer-imgtit a, .layui-layer-tab .layui-layer-title span, .layui-layer-title {
     text-overflow:ellipsis;
     white-space:nowrap
 }
