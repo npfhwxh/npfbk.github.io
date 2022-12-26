@@ -1,0 +1,387 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>NPF的博客 | NPF的博客</title><meta name="author" content="NPF"><meta name="copyright" content="NPF"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="format(true); &#x2F;&#x2F; 启用格式化功能  if($source &#x3D;&#x3D; &#39;kugou&#39; || $source &#x3D;&#x3D; &#39;baidu&#39;) {     define(&#39;NO_HTTPS&#39;, true);        &#x2F;&#x2F; 酷狗和百度音乐源暂不支持 https } elseif(($source &#x3D;&#x3D; &#39;netease&#39;) &amp;&amp; $netease_cookie) {     $API-&gt;cook">
+<meta property="og:type" content="website">
+<meta property="og:title" content="NPF的博客">
+<meta property="og:url" content="https://npfhwxh.github.io/music/api.html">
+<meta property="og:site_name" content="NPF的博客">
+<meta property="og:description" content="format(true); &#x2F;&#x2F; 启用格式化功能  if($source &#x3D;&#x3D; &#39;kugou&#39; || $source &#x3D;&#x3D; &#39;baidu&#39;) {     define(&#39;NO_HTTPS&#39;, true);        &#x2F;&#x2F; 酷狗和百度音乐源暂不支持 https } elseif(($source &#x3D;&#x3D; &#39;netease&#39;) &amp;&amp; $netease_cookie) {     $API-&gt;cook">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-12-26T08:45:04.150Z">
+<meta property="article:modified_time" content="2022-12-26T08:39:48.521Z">
+<meta property="article:author" content="NPF">
+<meta name="twitter:card" content="summary"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://npfhwxh.github.io/music/api"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: true,
+    post: true
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'NPF的博客',
+  isPost: false,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-12-26 16:39:48'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/20150124214400596900_0.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">7</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/index.html"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/photo/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">NPF的博客</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/index.html"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/photo/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="page-site-info"><h1 id="site-title">NPF的博客</h1></div></header><main class="layout" id="content-inner"><div id="page"><div id="article-container"><?php
+/**************************************************
+ * MKOnlinePlayer v2.4
+ *************************************************/
+
+/************ ↓↓↓↓↓ 如果网易云音乐歌曲获取失效，请将你的 COOKIE 放到这儿 ↓↓↓↓↓ ***************/
+$netease_cookie = '';
+/************ ↑↑↑↑↑ 如果网易云音乐歌曲获取失效，请将你的 COOKIE 放到这儿 ↑↑↑↑↑ ***************/
+/**
+* cookie 获取及使用方法见 
+* https://github.com/mengkunsoft/MKOnlineMusicPlayer/wiki/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E9%97%AE%E9%A2%98
+* 
+* 更多相关问题可以查阅项目 wiki 
+* https://github.com/mengkunsoft/MKOnlineMusicPlayer/wiki
+* 
+*
+**/
+
+
+define('HTTPS', false);    // 如果您的网站启用了https，请将此项置为“true”，如果你的网站未启用 https，建议将此项设置为“false”
+define('DEBUG', false);      // 是否开启调试模式，正常使用时请将此项置为“false”
+
+/*
+ 如果遇到程序不能正常运行，请开启调试模式，然后访问 http://你的网站/音乐播放器地址/api.php ，进入服务器运行环境检测。
+ 此外，开启调试模式后，程序将输出详细的运行错误信息，方便定位错误原因。
+ 
+ 因为调试模式下程序会输出服务器环境信息，为了您的服务器安全，正常使用时请务必关闭调试。
+*/
+
+
+
+/*****************************************************************************************************/
+if(!defined('DEBUG') || DEBUG !== true) error_reporting(0); // 屏蔽服务器错误
+
+require_once('plugns/Meting.php');
+
+use Metowolf\Meting;
+
+$source = getParam('source', 'netease');  // 歌曲源
+$API = new Meting($source);
+
+$API->format(true); // 启用格式化功能
+
+if($source == 'kugou' || $source == 'baidu') {
+    define('NO_HTTPS', true);        // 酷狗和百度音乐源暂不支持 https
+} elseif(($source == 'netease') && $netease_cookie) {
+    $API->cookie($netease_cookie);    // 解决网易云 Cookie 失效
+}
+
+switch(getParam('types'))   // 根据请求的 Api，执行相应操作
+{
+    case 'url':   // 获取歌曲链接
+        $id = getParam('id');  // 歌曲ID
+        
+        $data = $API->url($id);
+        
+        echojson($data);
+        break;
+        
+    case 'pic':   // 获取歌曲链接
+        $id = getParam('id');  // 歌曲ID
+        
+        $data = $API->pic($id);
+        
+        echojson($data);
+        break;
+    
+    case 'lyric':       // 获取歌词
+        $id = getParam('id');  // 歌曲ID
+        
+        $data = $API->lyric($id);
+        
+        echojson($data);
+        break;
+        
+    case 'download':    // 下载歌曲(弃用)
+        $fileurl = getParam('url');  // 链接
+        
+        header('location:$fileurl');
+        exit();
+        break;
+    
+    case 'userlist':    // 获取用户歌单列表
+        $uid = getParam('uid');  // 用户ID
+        
+        $url= 'http://music.163.com/api/user/playlist/?offset=0&limit=1001&uid='.$uid;
+        $data = file_get_contents($url);
+        
+        echojson($data);
+        break;
+        
+    case 'playlist':    // 获取歌单中的歌曲
+        $id = getParam('id');  // 歌单ID
+        
+        $data = $API->format(false)->playlist($id);
+        
+        echojson($data);
+        break;
+     
+    case 'search':  // 搜索歌曲
+        $s = getParam('name');  // 歌名
+        $limit = getParam('count', 20);  // 每页显示数量
+        $pages = getParam('pages', 1);  // 页码
+        
+        $data = $API->search($s, [
+            'page' => $pages, 
+            'limit' => $limit
+        ]);
+        
+        echojson($data);
+        break;
+        
+    default:
+        echo '<!doctype html><html><head><meta charset="utf-8"><title>信息</title><style>* {font-family: microsoft yahei}</style></head><body> <h2>MKOnlinePlayer</h2><h3>Github: https://github.com/mengkunsoft/MKOnlineMusicPlayer</h3><br>';
+        if(!defined('DEBUG') || DEBUG !== true) {   // 非调试模式
+            echo '<p>Api 调试模式已关闭</p>';
+        } else {
+            echo '<p><font color="red">您已开启 Api 调试功能，正常使用时请在 api.php 中关闭该选项！</font></p><br>';
+            
+            echo '<p>PHP 版本：'.phpversion().' （本程序要求 PHP 5.4+）</p><br>';
+            
+            echo '<p>服务器函数检查</p>';
+            echo '<p>curl_exec: '.checkfunc('curl_exec',true).' （用于获取音乐数据）</p>';
+            echo '<p>file_get_contents: '.checkfunc('file_get_contents',true).' （用于获取音乐数据）</p>';
+            echo '<p>json_decode: '.checkfunc('json_decode',true).' （用于后台数据格式化）</p>';
+            echo '<p>hex2bin: '.checkfunc('hex2bin',true).' （用于数据解析）</p>';
+            echo '<p>openssl_encrypt: '.checkfunc('openssl_encrypt',true).' （用于数据解析）</p>';
+        }
+        
+        echo '</body></html>';
+}
+
+/**
+ * 检测服务器函数支持情况
+ * @param $f 函数名
+ * @param $m 是否为必须函数
+ * @return 
+ */
+function checkfunc($f,$m = false) {
+	if (function_exists($f)) {
+		return '<font color="green">可用</font>';
+	} else {
+		if ($m == false) {
+			return '<font color="black">不支持</font>';
+		} else {
+			return '<font color="red">不支持</font>';
+		}
+	}
+}
+
+/**
+ * 获取GET或POST过来的参数
+ * @param $key 键值
+ * @param $default 默认值
+ * @return 获取到的内容（没有则为默认值）
+ */
+function getParam($key, $default='')
+{
+    return trim($key && is_string($key) ? (isset($_POST[$key]) ? $_POST[$key] : (isset($_GET[$key]) ? $_GET[$key] : $default)) : $default);
+}
+
+/**
+ * 输出一个json或jsonp格式的内容
+ * @param $data 数组内容
+ */
+function echojson($data)    //json和jsonp通用
+{
+    header('Content-type: application/json');
+    $callback = getParam('callback');
+    
+    if(defined('HTTPS') && HTTPS === true && !defined('NO_HTTPS')) {    // 替换链接为 https
+        $data = str_replace('http:\/\/', 'https:\/\/', $data);
+        $data = str_replace('http://', 'https://', $data);
+    }
+    
+    if($callback) //输出jsonp格式
+    {
+        die(htmlspecialchars($callback).'('.$data.')');
+    } else {
+        die($data);
+    }
+}</div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div id="comment-switch"><span class="first-comment">Livere</span><span class="switch-btn"></span><span class="second-comment">Waline</span></div></div><div class="comment-wrap"><div><div id="lv-container" data-id="city" data-uid="MTAyMC81NzgwOC8zNDI3MQ=="></div></div><div><div id="waline-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/20150124214400596900_0.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">NPF</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">7</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/npfhwxh" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:2637151904@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/11/06/hello-world/" title="Hello World"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/2022/11/06/hello-world/" title="Hello World">Hello World</a><time datetime="2022-11-06T02:09:46.143Z" title="发表于 2022-11-06 10:09:46">2022-11-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/08/28/90%E5%8F%A5%E6%AF%92%E9%B8%A1%E6%B1%A4/" title="90句毒鸡汤"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="90句毒鸡汤"/></a><div class="content"><a class="title" href="/2022/08/28/90%E5%8F%A5%E6%AF%92%E9%B8%A1%E6%B1%A4/" title="90句毒鸡汤">90句毒鸡汤</a><time datetime="2022-08-28T11:52:00.000Z" title="发表于 2022-08-28 19:52:00">2022-08-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/05/04/%E5%96%9D%E6%9D%AF%E4%B8%8B%E5%8D%88%E8%8C%B6/" title="喝杯下午茶"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="喝杯下午茶"/></a><div class="content"><a class="title" href="/2022/05/04/%E5%96%9D%E6%9D%AF%E4%B8%8B%E5%8D%88%E8%8C%B6/" title="喝杯下午茶">喝杯下午茶</a><time datetime="2022-05-04T05:08:08.000Z" title="发表于 2022-05-04 13:08:08">2022-05-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/05/03/NPF%E5%B7%A5%E5%85%B7%E7%AE%B1%E4%B8%8B%E8%BD%BD/" title="NPF工具箱下载"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="NPF工具箱下载"/></a><div class="content"><a class="title" href="/2022/05/03/NPF%E5%B7%A5%E5%85%B7%E7%AE%B1%E4%B8%8B%E8%BD%BD/" title="NPF工具箱下载">NPF工具箱下载</a><time datetime="2022-05-03T11:17:03.000Z" title="发表于 2022-05-03 19:17:03">2022-05-03</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/05/03/%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8%E4%B8%8B%E8%BD%BD/" title="视频播放器下载"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="视频播放器下载"/></a><div class="content"><a class="title" href="/2022/05/03/%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8%E4%B8%8B%E8%BD%BD/" title="视频播放器下载">视频播放器下载</a><time datetime="2022-05-03T10:51:30.000Z" title="发表于 2022-05-03 18:51:30">2022-05-03</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%85%B6%E4%BB%96/"><span class="card-category-list-name">其他</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%AE%9E%E7%94%A8%E6%89%8B%E6%9C%BA%E8%BD%AF%E4%BB%B6/"><span class="card-category-list-name">实用手机软件</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%AE%9E%E7%94%A8%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/"><span class="card-category-list-name">实用电脑软件</span><span class="card-category-list-count">2</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E5%85%B6%E4%BB%96/" style="font-size: 1.3em; color: #99a1ac">其他</a> <a href="/tags/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/" style="font-size: 1.5em; color: #99a9bf">实用工具</a> <a href="/tags/%E6%AF%92%E9%B8%A1%E6%B1%A4/" style="font-size: 1.1em; color: #999">毒鸡汤</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/11/"><span class="card-archive-list-date">十一月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/08/"><span class="card-archive-list-date">八月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/05/"><span class="card-archive-list-date">五月 2022</span><span class="card-archive-list-count">5</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">7</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2022-12-26T08:50:49.214Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">2.4k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2022-12-26T08:50:49.217Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By NPF</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function loadLivere () {
+  if (typeof LivereTower === 'object') {
+    window.LivereTower.init()
+  }
+  else {
+    (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+    })(document, 'script');
+  }
+}
+
+if ('Livere' === 'Livere' || !false) {
+  if (false) btf.loadComment(document.getElementById('lv-container'), loadLivere)
+  else loadLivere()
+}
+else {
+  function loadOtherComment () {
+    loadLivere()
+  }
+}</script><script>function loadWaline () {
+  function insertCSS () {
+    const link = document.createElement("link")
+    link.rel = "stylesheet"
+    link.href = "https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.min.css"
+    document.head.appendChild(link)
+  }
+
+  function initWaline () {
+    const waline = Waline.init(Object.assign({
+      el: '#waline-wrap',
+      serverURL: 'https://waline-mu-lemon.vercel.app/',
+      pageview: false,
+      dark: 'html[data-theme="dark"]',
+      path: window.location.pathname,
+      comment: true,
+    }, null))
+  }
+
+  if (typeof Waline === 'function') initWaline()
+  else {
+    insertCSS()
+    getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.min.js').then(initWaline)
+  }
+}
+
+if ('Livere' === 'Waline' || !false) {
+  if (false) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
+  else setTimeout(loadWaline, 0)
+} else {
+  function loadOtherComment () {
+    loadWaline()
+  }
+}</script></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="true" data-click="true"></script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-heart.min.js" async="async" mobile="true"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
