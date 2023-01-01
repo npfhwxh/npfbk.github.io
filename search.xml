@@ -201,7 +201,7 @@
       <link href="/font/font.css"/>
       <url>/font/font.css</url>
       
-        <content type="html"><![CDATA[@font-face {  font-family: 'YeZiGongChangShanHaiMingChao-2';//字体名称  font-display: swap;  src: url('../font/YeZiGongChangShanHaiMingChao-2.ttf') format("truetype"); //字体的所在位置}body,.gitcalendar {    font-family: YeZiGongChangShanHaiMingChao-2 !important; }]]></content>
+        <content type="html"><![CDATA[@font-face {  font-family: '华文中宋';//字体名称  font-display: swap;  src: url('../font/STZHONGS.TTF') format("truetype"); //字体的所在位置}]]></content>
       
     </entry>
     
