@@ -201,7 +201,7 @@
       <link href="/font/font.css"/>
       <url>/font/font.css</url>
       
-        <content type="html"><![CDATA[@font-face {  font-family: '华文中宋';//字体名称  font-display: swap;  src: url('../font/STZHONGS.TTF') format("truetype"); //字体的所在位置}]]></content>
+        <content type="html"><![CDATA[@font-face {  font-family: '方正聚珍新仿简繁';//字体名称  font-display: swap;  src: url('../font/FZJuZXFJF.TTF') format("truetype"); //字体的所在位置}]]></content>
       
     </entry>
     
