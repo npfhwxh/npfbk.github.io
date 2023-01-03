@@ -276,3 +276,9 @@ const btf = {
     }
   }
 }
+
+class Util {
+    constructor() {
+        if (Util.instance) return Util.instance;
+        return this.getInstance(...arguments);
+    }
