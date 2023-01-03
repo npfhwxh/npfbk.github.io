@@ -208,17 +208,6 @@
     
     
     <entry>
-      <title></title>
-      <link href="/font/logofont.css"/>
-      <url>/font/logofont.css</url>
-      
-        <content type="html"><![CDATA[@font-face {  font-family: '方正书宋';//字体名称  font-display: swap;  src: url('../font/FangZhengShuSongJianTi-1.ttf') format("truetype"); //字体的所在位置}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>友情链接</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
