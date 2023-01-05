@@ -230,22 +230,22 @@
     
     
     <entry>
-      <title>相册</title>
-      <link href="/photo/index.html"/>
-      <url>/photo/index.html</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='/img/20150124214400596900_0.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">家庭相册</div>  <p>家庭相册</p>  <a href='/familyphotos'></a>  </figcaption>  </figure>  </div>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>相册</title>
+      <link href="/photo/index.html"/>
+      <url>/photo/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='/img/20150124214400596900_0.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">家庭相册</div>  <p>家庭相册</p>  <a href='/familyphotos'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
