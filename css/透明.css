@@ -22,9 +22,11 @@
 }
 :root {
   /* --card-bg: #fff; */
-  --card-bg: #ffffffd9;
+  --card-bg: rgba(255,255,255,0.75);
 }
-
+[data-theme="light"] {
+  --font-color: rgb(0, 0, 0);
+}
 [data-theme="dark"] {
   /* --card-bg: #121212; */
   --card-bg: #12121288;
